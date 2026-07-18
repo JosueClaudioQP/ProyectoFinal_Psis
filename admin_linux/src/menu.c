@@ -17,9 +17,9 @@ void menu_principal() {
 
         limpiar_pantalla();
 
-        printf("=============================================\n");
+        printf("=====================================================\n");
         printf("         ADMIN LINUX - PROGRAMACION DE SISTEMAS\n");
-        printf("=============================================\n\n");
+        printf("=====================================================\n\n");
 
         printf("1. Administrador de procesos\n");
         printf("2. Shell de archivos\n");
@@ -31,8 +31,11 @@ void menu_principal() {
 
         printf("Seleccione una opcion: ");
 
-        scanf("%d",&opcion);
-        getchar();
+        if (!leer_entero(NULL, &opcion)) {
+            printf("\nEntrada invalida.\n");
+            pausar();
+            continue;
+        }
 
         switch(opcion){
 
