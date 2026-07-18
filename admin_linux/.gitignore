@@ -1,0 +1,9 @@
+admin_linux
+
+*.o
+
+.vscode
+
+*.swp
+
+*.out
