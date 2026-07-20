@@ -104,10 +104,10 @@ make clean
 
 Este proyecto fue desarrollado por:
 
-- Integrante 1
+- Carrillo Villalta Gustavo Alonso
+- Choque Sanchez Alejandra Camila
 - Mamani Cespedes Jhonatan Benjamin
-- Integrante 3
-- Integrante 4
+- Quispe Pauccar Josue CLaudio
 
 Universidad Nacional de San Agustín
 
