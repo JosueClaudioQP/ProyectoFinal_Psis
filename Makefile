@@ -6,7 +6,7 @@ SRC = $(wildcard src/*.c)
 
 OBJ = $(SRC:.c=.o)
 
-TARGET = admin_linux
+TARGET = proyecto_psis
 
 all: $(TARGET)
 
