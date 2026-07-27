@@ -267,33 +267,6 @@ El proyecto se encuentra organizado en módulos, donde cada uno implementa una f
 | Cola de descargas
 
 ---
-
-# Módulo 1 - Administrador de Procesos
-
-El Administrador de Procesos constituye el primer módulo funcional del proyecto.
-
-Su finalidad es permitir al usuario consultar y administrar los procesos que se encuentran en ejecución dentro del sistema operativo Linux mediante una interfaz interactiva desarrollada completamente en lenguaje C.
-
-Este módulo integra comandos propios del sistema operativo con llamadas realizadas desde la función `system()`, proporcionando una experiencia sencilla para el usuario final.
-
----
-
-## Funcionalidades implementadas
-
-Actualmente el módulo ofrece las siguientes funcionalidades:
-
-- Listado completo de procesos activos.
-- Visualización ordenada por porcentaje de uso de CPU.
-- Búsqueda de procesos por nombre.
-- Finalización segura de procesos mediante PID.
-- Suspensión temporal de procesos.
-- Reanudación de procesos suspendidos.
-- Visualización del árbol de procesos.
-- Validación de existencia del PID antes de ejecutar operaciones.
-- Registro automático de acciones realizadas.
-- Información general del sistema antes de acceder al menú.
-
----
 # Tecnologías utilizadas
 
 El proyecto fue desarrollado utilizando herramientas propias del entorno GNU/Linux y el lenguaje de programación C.
@@ -351,26 +324,6 @@ El funcionamiento general de la aplicación sigue el siguiente flujo:
 ```
 
 Este diseño permite agregar nuevos módulos sin modificar la estructura principal del proyecto.
-
----
-
-# Estado actual del proyecto
-
-Actualmente el proyecto se encuentra en desarrollo.
-
-## Módulos implementados
-
-- ✅ Administrador de procesos.
-
-## Módulos pendientes
-
-- 🚧 Administrador de archivos.
-- 🚧 Comandos Linux.
-- 🚧 Sistema de respaldos.
-- 🚧 Analizador de scripts Bash.
-- 🚧 Cola de descargas.
-
-La arquitectura principal del proyecto ya ha sido definida, permitiendo continuar con la implementación de los módulos restantes de manera independiente.
 
 ---
 
